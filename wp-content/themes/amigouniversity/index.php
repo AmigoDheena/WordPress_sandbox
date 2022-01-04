@@ -1,0 +1,48 @@
+<?php
+
+// print_r( bloginfo('description') ) ;
+echo bloginfo(  $show = 'name' );
+echo "<br>";
+echo bloginfo(  $show = 'description' );
+echo "<br>";
+echo bloginfo(  $show = 'wpurl' );
+echo "<br>";
+echo bloginfo(  $show = 'admin_email' );
+echo "<br>";
+echo bloginfo(  $show = 'charset' );
+echo "<br>";
+echo bloginfo(  $show = 'version' );
+echo "<br>";
+echo bloginfo(  $show = 'html_type' );
+echo "<br>";
+echo bloginfo(  $show = 'text_direction' );
+echo "<br>";
+echo bloginfo(  $show = 'language' );
+echo "<br>";
+echo bloginfo(  $show = 'stylesheet_url' );
+echo "<br>";
+echo bloginfo(  $show = 'stylesheet_directory' );
+echo "<br>";
+echo bloginfo(  $show = 'template_url' );
+echo "<br>";
+echo bloginfo(  $show = 'template_directory' );
+echo "<br>";
+echo bloginfo(  $show = 'pingback_url' );
+echo "<br>";
+echo bloginfo(  $show = 'atom_url' );
+echo "<br>";
+echo bloginfo(  $show = 'rdf_url' );
+echo "<br>";
+echo bloginfo(  $show = 'rss_url' );
+echo "<br>";
+echo bloginfo(  $show = 'rss2_url' );
+echo "<br>";
+echo bloginfo(  $show = 'comments_atom_url' );
+echo "<br>";
+echo bloginfo(  $show = 'comments_rss2_url' );
+echo "<br>";
+echo bloginfo(  $show = 'siteurl' );
+echo "<br>";
+echo bloginfo(  $show = 'home' );
+echo "<br>";
+?>
