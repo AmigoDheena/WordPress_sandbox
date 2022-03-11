@@ -8,5 +8,7 @@ function css_js(){
     
     wp_enqueue_script('index-js',get_template_directory_uri().'/build/index.js', array('jquery'), '1.0', true);
 }
-add_action('wp_enqueue_scripts','css_js')
+add_action('wp_enqueue_scripts','css_js');
+
+add_theme_support( 'title-tag' );
 ?>
